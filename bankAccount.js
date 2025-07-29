@@ -8,12 +8,12 @@ class BankAccount {
 
     deposit(amount) {
         this.balance += amount;
-        console.log(`You have deposited £${amount}, you now have £${this.balance} in your account.`);
+        console.log(`Happy days ${this.accountHolder}! You have deposited £${amount}, you now have £${this.balance} in your account.`);
     }
 
     withdraw(amount) { 
         this.balance -= amount;
-         console.log(`You have withdrew £${amount}, you now have £${this.balance} in your account.`);
+         console.log(`Hello ${this.accountHolder}. For your reference you have withdrawn £${amount}, you now have £${this.balance} in your account.`);
     }
 
     checkBalance() {
